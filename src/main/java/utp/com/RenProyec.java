@@ -35,7 +35,7 @@ public class RenProyec {
     public String analisisInversion(int cTiempo, double cCapital, double cInteres) {
         this.tiempo = cTiempo;
         this.capital = cCapital;
-        this.interes = cInteres;
+        this.interes = cInteres; 
         double diferencia = calcularInteresCompuesto() - calcularInteresSimple();
 
         if (diferencia > 0) {

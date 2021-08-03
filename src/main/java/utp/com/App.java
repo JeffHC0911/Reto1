@@ -10,7 +10,7 @@ public class App
     public static void main( String[] args )
     {
 
-        RenProyec r = new RenProyec(2, 50000000.0, 6.2);
+        RenProyec r = new RenProyec(3, 50000000.0, 6.2);
 
 
 
